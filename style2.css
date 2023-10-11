@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Dancing+Script:wght@400;500;600;700&family=Montserrat:wght@300;500;700;800&family=Poppins:wght@100;400;600;700&display=swap");
+
+.container {
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  max-width: 80vh;
+  margin: auto;
+}
+
+.container h1,h2{
+    margin: 23px 0;
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+}
+
+.container form lable{
+    font-size: 25px;
+}
+
+.container form input[type='number'],select,label{
+    font-size: 25px;
+    width: 23vw;
+    margin-bottom: 23px;
+}
+
+.btn {
+    width: 144px;
+    padding: 5px 8px;
+    font-size: 20px;
+    background: #e0d0f5;
+    color: black;
+    border-radius: 13px;
+    cursor: pointer;
+}
+
+.output {
+    display: none;
+}
+
+.output table {
+    width: 50vw;
+    text-align: center;
+    border: 2px solid black;
+    font-size: 20px;
+}
+
+.output table th{
+    padding: 3px;
+}
